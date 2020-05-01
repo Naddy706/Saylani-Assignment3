@@ -1,0 +1,48 @@
+.whitecolor {
+    color: white;
+}
+
+.shad {
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+}
+
+#navv {
+    margin-left: 150px
+}
+
+.img12 {
+    margin-left: 150px;
+}
+
+ul li {
+    padding: 5px;
+    transition: 0.1s;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+ul li:hover {
+    background-color:#316DC3 !important;
+    padding: 5px;
+    color: #333333 !important;
+    border-radius: 30px;
+}
+
+ul li a:hover {
+    color: white !important;
+    background-color:  #316DC3 !important;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    #navv {
+
+        margin-left: -50px !important;
+
+    }
+
+    .img12 {
+        margin-left: -10px;
+    }
+}
